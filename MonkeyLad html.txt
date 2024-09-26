@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MonkeyLad</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <center></center>
+<br>
+       <br>
+       <center><h2>MonkeyLad</h2>
+       
+  <center>
+    <br>
+<h1>create an account!</h1>
+
+<input type="email" placeholder="Email">
+
+<input type="phonenumber" placeholder="Phone Number">
+
+
+<input type="password" placeholder="Password">
+<button>Log in</button>
+<a href="#" class="forgot-password">Forgotten Password?</a>
+  <h4>------------or------------</h4>
+  <button class="custom-button">create account</button>
+  <br
+    <h3 class="about">what is monkeyLad?</h3>
+   
+<p class="about">MonkeyLad is a social network app...</p>
+  
+    <button onclick="seeMore()">See more</button>
+    <button onclick="seeLess()">See less</button>
+   <br>
+   <br>
+    <h5>JacobsigmaProduction©</h5>
+    <br>
+  
+    
+    <body>
+
+      <script src="script.js"></script>
+</html>

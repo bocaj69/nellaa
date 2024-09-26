@@ -1,0 +1,15 @@
+function seeMore() {
+  const el = document.querySelector("p");
+  el.innerHTML = 
+  "MonkeyLad is a social network app, which you can share your post online or like other people's posts, Monkeylad can also be used for private chats and more!"
+}
+
+
+
+function seeLess() {
+  const el = document.querySelector("p");
+  el.innerHTML = 
+  "MonkeyLad is a social network app"
+}
+
+

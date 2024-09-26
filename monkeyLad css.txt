@@ -1,0 +1,108 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f0f0;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, button {
+  margin: 5px 0;
+  
+}
+
+button {
+  width: 330px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1b17ff;
+}
+
+h2, h1, h3, h4, h5 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  padding: 5px;
+  font-size: 14px;
+}
+
+p {
+  color: #fff;
+  background-color: #007BFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  width: 350px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #007BFF;
+  text-align: left;
+  margin: 20px auto;
+}
+
+
+
+
+.custom-button {
+  background-color: #28a745;
+  border: 2px solid #28a745;
+  border-radius: 3px;
+}
+
+.custom-button:hover {
+  background-color: #218838;
+}
+
+
+
+h2 {
+  font-size: 46px;
+  color: #1b17ff;
+  margin-bottom: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+}
+
+
+.forgot-password {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
